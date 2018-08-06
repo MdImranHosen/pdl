@@ -1,0 +1,508 @@
+    .menu_defarent{text-align: center;}
+    .menu_defarent span{padding-right: 8px;}
+    .menu_defarent span a{}
+    .selectedStyle{cursor: pointer;border-radius: 3px;}
+    .fileImage{border: 1px solid #ddd;}
+    .scolor{font-size:20px;color: red;}
+    .user-panel > .image > img{
+        width: 100%;
+        max-width: 229px !important;
+        height: auto;
+      }
+      /* New style */
+    .specialty{}
+    .specialty p{text-align: left;}
+    .specialty ul{text-align: left;}
+    .specialty ul li{
+      font-size: 17px;
+      color: #787C83;
+      line-height: 28px;
+      font-style: normal;
+      word-wrap: break-word;
+      word-spacing: 3px;
+    }
+    .slider_text{}
+    .item > .slider_text p{
+      color: #fff;
+    }
+    .contact_style{padding-left: 20px;}
+    .contact_style label{text-align: center;}
+    .contact_style p{color: #787C83;font-size: 17px;}
+    .traning_private {
+      width: 100%;
+      min-height: 100px;
+      border: 10px double #9D8B72;
+      /* background-color: #FFFF01; */
+      padding: 0px;
+      background-image: url("../upload/background/bo.png");
+      background-position: center;
+      background-color: #cccccc;
+    }
+    
+    .traning_private h3 {
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 60px;
+      border: 2px solid #9D8B72;
+      border-bottom: 4px solid #9D8B72;
+      padding-top: 12px;
+      padding-bottom: 8px;
+      word-spacing: 7px;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .traning_images{float: left;width:25%;}
+    .traning_images > .img_traning{width:100%;height: auto;}
+    .traning_text{float: left;width:70%;margin-top: 4px;margin-bottom: 5px;}
+    .traning_text h4 {
+      text-align: left;
+      color: #0606F7;
+      font-size: 24px;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      text-indent: 100px;
+    }
+    .traning_text address {
+      font-size: 17px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      color: #AC6B4A;
+      font-weight: bold;
+    }
+    .traning_text em {
+        word-wrap: break-word;
+        word-spacing: 4px;
+        padding-bottom: 5px;
+        color: #AC6B4A;
+        font-weight: bold;
+      }
+
+
+
+   /* New style */
+    label, .checkbox_text_style{
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 28px;
+        word-wrap: break-word;
+        word-spacing: 5px;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+    .box-header > .box-title{
+      font-size: 24px;
+      line-height: 32px;
+      word-wrap: break-word;
+      font-weight: bold;
+      word-spacing: 4px;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .form-control{
+      font-size: 15px;
+      line-height: 26px;
+      word-wrap: break-word;
+      word-spacing: 3px;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .facebook_iconstyle{}
+    .facebook_iconstyle a{background: #4267B2;}
+    .facebook_iconstyle a:hover {background-color: #4267B2;}
+    .facebook_iconstyle a i{font-size: 16px;}
+    .skin-blue .content-header {
+      background: transparent;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .content-header p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        line-height: 28px;
+        color: #C02039;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+    .private_detective_jobs_text{
+      padding: 5px 0;margin: 0px;border-top: 2px solid #ddd;
+      border-left: none;
+    }
+    .background_color_red{
+      background-color: #EC2024 !important;
+    }
+    .background_color_green{
+      background-color: #25570E !important;
+    }
+    .private_detective_jobs_text h2{
+      padding: 0px;
+      margin: 0px;
+      word-spacing: 5px;
+      font-size: 40px;
+      color: #fff;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .private_detective_jobs_title {
+        border-bottom: 1px solid #f0f0f0;
+        border-top: 3px solid #E1E1E1;
+        margin: 0px;
+        padding: 8px;
+        border-left: none;
+      }
+    .private_detective_jobs_title h3{
+      padding: 0px;
+      margin: 0px;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .private_detective_jobs_body {
+        border: 2px solid #ddd;
+        padding: 5px 0px;
+        margin: 5px;
+        background: #fff;
+      }
+    .private_body_padding{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .private_detective_jobs_body_text{
+      margin-bottom: 5px;
+      padding: 5px;
+      border-top: 3px solid #ccc;
+    }
+    .private_detective_jobs_body_text h3{
+      padding: 0px;
+      font-size: 25px;
+      line-height: 30px;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .private_detective_jobs_body_text p{
+      font-size: 20px;
+      line-height: 30px;
+      text-shadow: none;
+      word-spacing: 5px;
+      word-wrap: break-word;
+      font-weight: normal;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .table_style_degis{border: 1px solid #ddd;}
+    .table_style_degis td h4 {
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+        font-size: 24px;
+        font-weight: normal;
+        word-wrap: break-word;
+        display: block;
+        color: #787C83;
+        padding-bottom: 14px;
+      }
+    .table_style_degis td p{
+      font-size: 20px;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+    }
+    .table_style_degis ul{}
+    .table_style_degis ul li {
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: normal;
+          word-wrap: break-word;
+          list-style-image: url(upload/download.png);
+          padding-bottom: 4px;
+          border-bottom: 1px solid #ddd;
+          color: #787C83;
+          font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+          word-spacing: 4px;
+        }
+    .table_style_degis ul li:last-child{border-bottom: none; }
+    .box-header-text-title {
+          border: 2px solid #ddd;
+        }
+    .box-header-text-title .text-title{
+      display: block;
+      font-size: 24px;
+      color: #787C83;
+      font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;}
+      .important_private_detective_key{}
+      .important_private_detective_key h4{}
+      .important_private_detective_key .important_p_detective_key{
+        word-wrap: break-word;
+        word-spacing: 4px;
+        font-weight: normal;
+        color: #787C83;
+        line-height: 30px;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .application_way_text{}
+      .application_way_text h4 a, .detective_article label{
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .application_way_text h4 a:hover{
+       color:#000;
+      }
+      .application_way_text p, .detective_article p{
+        word-wrap: break-word;
+        word-spacing: 4px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #787C83;
+        text-align: left;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .address_style_text{ }
+      .address_style_text h2{
+        word-wrap: break-word;
+        word-spacing: 4px;
+        line-height: 32px;
+        font-weight: normal;
+        font-size: 26px;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .address_style_text strong{
+        word-wrap: break-word;
+        word-spacing: 4px;
+        line-height: 30px;
+        font-weight: normal;
+        font-size: 24px;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .address_style_text p{
+        word-wrap: break-word;
+        word-spacing: 4px;
+        line-height: 30px;
+        font-weight: normal;
+        font-size: 20px;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .style_head_text{}
+      .style_head_text h1{
+        margin: 0px;
+        word-wrap: break-word;
+        font-weight: bold;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .style_head_text small{
+        font-size: 18px;
+        line-height: 28px;
+        word-wrap: break-word;
+        font-style: italic;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+      }
+      .style_head_right_text{}
+      .style_head_right_text li{
+        color: #787C83;
+      }
+      .content-header > .style_head_right_text li a{
+        font-size: 16px;
+        line-height: 26px;
+        word-wrap: break-word;
+        font-weight: bold;
+        color: #787C83;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+        margin-right: 100px;
+      }
+      .content-header > .style_head_right_text li a:hover{
+         color: #000;
+      }
+      .image_style_w{
+        width: 50%;
+        height: auto;
+      }
+      .detective_article{margin-top: 0px;min-height: 350px;}
+      .style_for_article_bottom { border-bottom: 2px solid #ddd;padding-bottom: 5px;margin-bottom: 5px; }
+      .private_body_pfix{padding-top: 5px; padding-bottom: 5px;margin-top: 5px; margin-bottom: 5px;}
+      .detective_article img{float: right;margin: 5px;}
+      .box-body p{
+        font-size: 17px;
+        line-height: 30px;
+        word-wrap: break-word;
+        word-spacing: 4px;
+        font-weight: normal;
+        color: #787C83;
+      }
+      
+      /* ---- New style 25-2-2018 ---*/
+      .traning_text p {
+          text-align: left;
+          color: #AC6B4A;
+          font-weight: bold;
+          /*text-shadow: 1px 1px #6F6F61;*/
+        }
+      .traning_text label {
+        color: #AC6B4A;
+        font-size: 20px;
+        font-weight: bold;
+      }
+          /*----26-02-2018---*/
+        .flashit{
+           animation: flash linear 1s infinite;
+          }
+
+          @keyframes flash {
+             0% { opacity: 1; }
+             50% { opacity: .1; }
+             100% { opacity: 1; }
+          }
+
+          /*--------FLASH- closse----*/
+
+          .pulseit{
+           animation: pulse linear .5s infinite;
+          }
+
+          @keyframes pulse {
+             0% { width:200px; }
+             50% { width:240px; }
+             100% { width:200px; }
+          }
+
+          .dispaly_facebook_big{
+            display: block;
+          }
+          .dispaly_facebook_small{
+            display: none;
+          }
+       /* ---- New style 25-2-2018 ---*/
+       /*---- Contact us page Style start--28-02-2018-*/
+         .contact_us_input {
+            margin-bottom: 15px;
+          }
+          .contact_us_page_background_image{
+            background-image: url("../upload/background/bo.png");
+            background-position: center;
+          }
+          .contact_us_fback_img{
+            background-image: url("../upload/background/bo.png");
+            background-position: center;
+          }
+          .contact_us_fback_img_send{
+            background-image: url("../upload/background/bo.png");
+            background-position: center;
+            border-top: 0px solid #fff;
+            border-bottom: 0px solid #000;
+            margin-right: 8px;
+          }
+          .apply_new_style{
+            margin-bottom: 8px;
+          }
+          .sidebar_menu_style{}
+          .sidebar_menu_style li{}
+          .sidebar_menu_style li a{font-size: 16px;}
+
+          .sidebar_menu_style > .application_menu_style{background: red;}
+          
+         .sidebar_menu_style > .application_menu_style a {
+            color: white;
+            word-spacing: 9px;
+            font-weight: bold;
+            font-size: 27px;
+          }
+
+          /* ---- Today date is 03-03-2018 --*/
+          .private_detective_logo_s{
+            max-width: 100%;
+            height: auto;
+          }
+          .user-panel > .image > img {
+              max-width: 100%;
+              height: auto;
+            }
+          .apply_date_image{max-width: 100%;height: auto;}
+          .apply_date_and_text{}
+          .apply_date_and_text h3 {
+              text-align: center;
+              border: 3px solid #000;
+              padding: 8px 0px;
+              
+            }
+          .apply_date_and_text img{}
+          .apply_date_and_text h4{text-align: center;}
+
+          .input_filed_style_cv{}
+          .input_filed_style_cv label{font-size: 20px;font-weight: bold;}
+          .input_filed_style_cv p {
+              color: #B02E7A;
+              font-weight: bold;
+            }
+          .cv_send_style a{word-spacing: 5px;}
+
+       /*---- Contact us page Style end--28-02-2018--*/
+      @media (max-width: 1200px){
+        .detective_article{min-height: 310px;}
+        .image_style_w{
+          width: 30%;
+        }
+      }
+      @media (max-width: 950px){
+        .detective_article{min-height: 280px;}
+      }
+       @media (max-width: 800px){
+        .image_style_w{
+          width: 40%;
+        }
+        .traning_images{width:100%;}
+        .traning_text{width:100%;padding: 8px;}
+
+      }
+      @media (max-width: 650px){
+        .traning_private h3{
+        font-size: 25px;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+       }
+       .traning_text h4 {
+          text-indent: 20px;
+        }
+        .traning_images{width:100%;}
+        .traning_text{width:100%;padding: 8px;}
+        .dispaly_facebook_big{
+            display: none;
+          }
+          .dispaly_facebook_small{
+            display: block;
+          }
+      }
+      @media (max-width: 450px){
+        .image_style_w{
+          width: 100%;
+        }
+        .detective_article img{float: none;}
+
+        /* ---new-style--25-02-2018 --*/
+          .zoom {
+          -webkit-transition: -webkit-transform .2s;
+          transition: -webkit-transform .2s;
+          transition: transform .2s;
+          transition: transform .2s, -webkit-transform .2s;
+          margin: 0 auto;
+       }
+
+        .zoom:hover { /* IE 9 */
+            -webkit-transform: scale(2.5); /* Safari 3-8 */
+            transform: scale(2.5); 
+        }
+       .traning_private h3{
+        font-size: 25px;
+        font-family: 'kiron',SolaimanLipi,Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;
+       }
+       .traning_images{width:100%;}
+        .traning_text{width:100%;padding: 8px;}
+        /* ---new style end 25-02-2018--*/
+        .dispaly_facebook_big{
+            display: none;
+          }
+          .dispaly_facebook_small{
+            display: block;
+          }
+      }

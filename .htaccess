@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^apply-from/?$ applicationFrom.php [NC,L]
+RewriteRule ^Contact/?$ contact.php [NC,L]
+RewriteRule ^Training/?$ detective-learn.php [NC,L] 
+# Handle requests for "apply-from"
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#QSA permet de garder les paramètres GET et les ajouter à la suite
+RewriteRule (.*) index.php?p=$1 [QSA]
+
+
+
+RewriteCond %{HTTP_HOST} ^pdl007.com [NC]
+RewriteRule ^(.*)$ http://www.pdl007.com/$1 [L,R=301,NC]
